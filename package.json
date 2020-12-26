@@ -1,0 +1,20 @@
+{
+  "name": "bristol",
+  "version": "0.0.1",
+  "description": "Bristol — experimental Gulp based preset",
+  "main": "index.js",
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/whiteGloom/bristol.git"
+  },
+  "keywords": [
+    "gulp"
+  ],
+  "author": "whiteGloom <karabin.m@yandex.ru> (https://github.com/whiteGloom)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/whiteGloom/bristol/issues"
+  },
+  "homepage": "https://github.com/whiteGloom/bristol#readme"
+}
