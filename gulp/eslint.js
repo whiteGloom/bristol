@@ -9,7 +9,7 @@ const gulp = require('gulp');
 const gulpEslintPlugin = require('gulp-eslint7');
 
 function eslintTask() {
-  return gulp.src(['./src/**/*.js'])
+  return gulp.src(['./src/**/*.ts'])
     .pipe(gulpEslintPlugin())
     .pipe(gulpEslintPlugin.format())
     .pipe(gulpEslintPlugin.failAfterError());

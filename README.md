@@ -17,6 +17,5 @@
 * **[Gulp](https://gulpjs.com/)**
 * **[Webpack](https://webpack.js.org/)**
 * **[Typescript](https://www.typescriptlang.org/)**
-* **[Babel](https://babeljs.io/)**
 * **[ESLint](https://eslint.org/)**
 * **[Stylus](https://stylus-lang.com/)**

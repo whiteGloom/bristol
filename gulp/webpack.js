@@ -1,24 +1,27 @@
 const gulp = require('gulp');
+const webpack = require('webpack');
+
 const webpackStreamPlugin = require('webpack-stream'); // https://www.npmjs.com/package/webpack-stream
 
 const webpackOptions = {
   mode: 'development',
   output: {
-    filename: 'index.js'
+    filename: 'index.js',
+    libraryTarget: 'commonjs2'
   },
   module: {
     rules: [
       {
-        loader: 'babel-loader',
-        test: /\.js/
+        loader: 'ts-loader',
+        test: /\.(tsx?|js)$/
       }
     ]
   }
 };
 
 function webpackTask() {
-  return gulp.src('./src/index.js')
-    .pipe(webpackStreamPlugin(webpackOptions))
+  return gulp.src('./src/index.ts')
+    .pipe(webpackStreamPlugin(webpackOptions, webpack))
     .pipe(gulp.dest('./dist/'));
 }
 
