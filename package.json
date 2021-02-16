@@ -27,6 +27,7 @@
     "eslint": "^7.16.0",
     "eslint-config-wgl-main": "github:whiteGloom/eslint-config-wgl-main",
     "gulp": "^4.0.2",
+    "gulp-clean": "^0.4.0",
     "gulp-eslint7": "^0.3.0",
     "gulp-stylus": "^2.7.0",
     "ts-loader": "^8.0.12",

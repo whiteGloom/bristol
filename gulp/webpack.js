@@ -4,10 +4,13 @@ const webpack = require('webpack');
 const webpackStreamPlugin = require('webpack-stream'); // https://www.npmjs.com/package/webpack-stream
 
 const webpackOptions = {
-  mode: 'development',
+  mode: 'production',
   output: {
     filename: 'index.js',
     libraryTarget: 'commonjs2'
+  },
+  resolve: {
+    extensions: ['.ts','.js']
   },
   module: {
     rules: [
